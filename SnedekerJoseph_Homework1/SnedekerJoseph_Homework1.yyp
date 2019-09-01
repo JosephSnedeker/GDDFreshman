@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "53129d8f-e402-4aaa-aaea-44cb4c3f3d92",
-            "Value": {
-                "id": "c0a9ad45-5521-480c-aabc-9e9f96a7e03e",
-                "resourcePath": "scripts\\enemyDeath\\enemyDeath.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5be48e2c-b292-42ee-ad6e-2e3883aea4cc",
             "Value": {
                 "id": "0757b859-6ecd-4875-95f6-d55ff401ee30",
@@ -398,7 +390,6 @@
         "db420ffa-7a0f-4acf-a159-7201b06cf282",
         "f598ff85-cfff-4546-8662-7f2433280b51",
         "f1a36afa-eedb-4eb6-a9c2-d5b847ff0b28",
-        "53129d8f-e402-4aaa-aaea-44cb4c3f3d92",
         "8679d0eb-732b-4a44-9bb3-97acd1eaaabf",
         "71465e51-be23-4f48-b0e2-f3fc4c8fa975",
         "e2f2e1f7-221b-4620-ba32-68812fcd117c"

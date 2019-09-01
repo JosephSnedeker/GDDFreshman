@@ -8,4 +8,5 @@ fireBallSpeed = 15;
 
 
 
-globalvar mana
+globalvar mana;
+mana = 100;
