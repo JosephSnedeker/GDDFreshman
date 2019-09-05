@@ -1,0 +1,1 @@
+motion_set(shootTowards, 10);

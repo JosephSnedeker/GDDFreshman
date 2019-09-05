@@ -27,13 +27,13 @@ if(keyboard_check(ord("S"))&& keyboard_check(ord("A"))){
 	
 	
 	
-if(keyboard_check(ord("W"))&& !keyboard_check(ord("S")) && !keyboard_check(ord("A")) && !keyboard_check(ord("D"))){
+if(keyboard_check(ord("W"))&& !keyboard_check(ord("S")) && !keyboard_check(ord("A")) && !keyboard_check(ord("D")) && y > 0){
 		y -= playerSpeed;
 		image_index = 2;
 		shootDirectiony = -1
 		shootDirectionx = 0
 	}
-if(keyboard_check(ord("A")) && !keyboard_check(ord("S")) && !keyboard_check(ord("W")) && !keyboard_check(ord("D"))){
+if(keyboard_check(ord("A")) && !keyboard_check(ord("S")) && !keyboard_check(ord("W")) && !keyboard_check(ord("D")) && x > 0){
 		x -= playerSpeed;	
 		image_index = 1;	
 		shootDirectiony = 0
@@ -43,13 +43,13 @@ if(keyboard_check(ord("A")) && !keyboard_check(ord("S")) && !keyboard_check(ord(
 
 	//
 
-if(keyboard_check(ord("S")) && !keyboard_check(ord("A")) && !keyboard_check(ord("W")) && !keyboard_check(ord("D"))){
+if(keyboard_check(ord("S")) && !keyboard_check(ord("A")) && !keyboard_check(ord("W")) && !keyboard_check(ord("D")) && y < room_height){
 		y += playerSpeed;
 		image_index = 3;
 		shootDirectiony = 1
 		shootDirectionx = 0
 	}
-if(keyboard_check(ord("D"))&& !keyboard_check(ord("S")) && !keyboard_check(ord("W")) && !keyboard_check(ord("A"))){
+if(keyboard_check(ord("D"))&& !keyboard_check(ord("S")) && !keyboard_check(ord("W")) && !keyboard_check(ord("A")) && x < room_width){
 		x += playerSpeed;	
 		image_index = 0;
 		shootDirectiony = 0

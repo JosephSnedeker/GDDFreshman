@@ -12,8 +12,8 @@ if(keyboard_check_pressed(vk_down) && instance_number(obj_mine) <= 3 && mana >= 
 if(keyboard_check_pressed(vk_right) && instance_number(obj_spear) <= 1 ){
 	instance_create_depth(x, y, -10000, obj_spear)
 }
-if(keyboard_check_pressed(vk_left) && !instance_exists(obj_boomerang) && mana>=20){
-	mana-=20;
+if(keyboard_check_pressed(vk_left) && !instance_exists(obj_boomerang) && mana>=75){
+	mana-=75;
 	instance_create_depth(x, y, -10000, obj_boomerang)
 	
 	
