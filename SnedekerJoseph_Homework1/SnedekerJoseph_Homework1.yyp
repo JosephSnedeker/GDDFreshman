@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "211abb6d-e695-493c-8fcf-6e568c0201a5",
+            "Value": {
+                "id": "e9122716-30d0-4504-91b4-935da4d35bdf",
+                "resourcePath": "datafiles_yy\\Muz_Wizard.wav.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "21bebda8-935e-446e-a0f8-93c0a630362f",
             "Value": {
                 "id": "5985886d-bc1d-41e3-a96f-75db5a68708e",
@@ -364,6 +372,14 @@
                 "id": "4cdf4d0d-6295-4465-b260-b9d81c956f73",
                 "resourcePath": "scripts\\shootArrow\\shootArrow.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f91c9d58-c2ce-464d-9660-30deca1ac6c7",
+            "Value": {
+                "id": "8512f86c-c9e0-4b7e-a9ca-93e94396e310",
+                "resourcePath": "sounds\\Muz_Wizard\\Muz_Wizard.yy",
+                "resourceType": "GMSound"
             }
         },
         {
