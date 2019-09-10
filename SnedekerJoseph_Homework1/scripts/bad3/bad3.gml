@@ -1,0 +1,1 @@
+move_towards_point(playerLocationx,playerLocationy, 4)

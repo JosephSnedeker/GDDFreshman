@@ -1,24 +1,24 @@
 
 //
-if(keyboard_check(ord("W"))&& keyboard_check(ord("A"))){		
+if(keyboard_check(ord("W"))&& keyboard_check(ord("A")) && y> 0 && x > 0){		
 		y -= sqrt((playerSpeed*playerSpeed)/2);
 		x -= sqrt((playerSpeed*playerSpeed)/2);	
 		shootDirectiony = -1
 		shootDirectionx = -1
 	}
-if(keyboard_check(ord("W"))&& keyboard_check(ord("D"))){		
+if(keyboard_check(ord("W"))&& keyboard_check(ord("D")) && y > 0 && x < room_width){		
 		y -= sqrt((playerSpeed*playerSpeed)/2);
 		x += sqrt((playerSpeed*playerSpeed)/2);	
 		shootDirectiony = -1
 	    shootDirectionx = 1
 	}	
-if(keyboard_check(ord("S"))&& keyboard_check(ord("D"))){		
+if(keyboard_check(ord("S"))&& keyboard_check(ord("D")) && y < room_height && x < room_width){		
 		y += sqrt((playerSpeed*playerSpeed)/2);
 		x += sqrt((playerSpeed*playerSpeed)/2);
 		shootDirectiony = 1
 	    shootDirectionx = 1
 	}
-if(keyboard_check(ord("S"))&& keyboard_check(ord("A"))){		
+if(keyboard_check(ord("S"))&& keyboard_check(ord("A")) && y < room_height && x> 0){		
 		y += sqrt((playerSpeed*playerSpeed)/2);
 		x -= sqrt((playerSpeed*playerSpeed)/2);
 		shootDirectiony = 1

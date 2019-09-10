@@ -7,7 +7,7 @@ globalvar fireBallSpeed;
 fireBallSpeed = 15;
 globalvar playerLocationx;
 globalvar playerLocationy;
-globalvar shootTowards;
+
 
 
 
